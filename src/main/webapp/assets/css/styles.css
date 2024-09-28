@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.tabs {
+	margin: 0 auto;
+	display: flex;
+	gap: 0.325rem;
+	align-items: center;
+	border-bottom: 1px solid #efefef;
+}
+
+.tabs .tab {
+	padding: 0.625rem;
+	background-color: #efefef;
+	border: 1px solid #efefef;
+}
+
+.tabs .tab.active {
+	border-bottom: 1px solid #000;
+}
+
+.tab-content {
+	padding: 0.525rem;
+	border: 1px solid #efefef;
+	border-top: none;
+	display: none;
+}
+
+.tab-content.active {
+	display: block;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 0.425rem;
+	margin-top: 0.625rem;
+}
+
+.form-group input, .form-group select {
+	padding: 0.625rem;
+}
+
+form button {
+	margin-top: 0.625rem;
+	padding: 0.425rem 0.925rem;
+}
+
+.result-wrapper {
+	display: flex;
+	gap: 1rem;
+	font-weight: bold;
+	font-size: 5rem;
+	padding: 1rem;
+	text-align: center;
+	margin: 0 auto;
+}
